@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: whitesmoke;
 }
 
 header {
-    background-color: #333;
+    background-color: darkslategray;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -37,12 +37,13 @@ section {
 }
 
 .project-item {
-    border: 1px solid #ddd;
+    border: 1px solid gainsboro;
     margin-bottom: 15px;
     padding: 15px;
     background-color: white;
 }
 
 .project-item img {
-    max-width: 60%; 
+    width: 50%;
+    height: auto;
 }
