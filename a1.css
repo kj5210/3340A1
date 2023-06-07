@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: floralwhite;
+    background-color: ivory;
 }
 
 header {
-    background-color: lightgray;
+    background-color: darkgray;
     color: white;
     padding: 10px 0;
     text-align: center;
 }
 
 nav ul {
-    background-color: lightgray;
+    background-color: darkgray;
     overflow: hidden;
     padding: 0;
     margin: 0;
@@ -44,7 +44,7 @@ section {
 }
 
 .project-item img {
-    width: 50%;
+    max-width: 50%;
     height: auto;
-    max-width: 100%;
+    object-fit: contain;
 }
