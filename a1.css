@@ -1,80 +1,134 @@
-body {
-    font-family: Arial, sans-serif;
+body{
+    font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: ivory;
+    background-color: ghostwhite;
 }
 
-header {
-    background-color: dimgray;
+header{
+    background-color: black;
     color: white;
-    padding: 10px 0;
+    padding: 10px;
+    font-size: 18px;
     text-align: center;
 }
 
-nav ul {
-    background-color: black;
+nav ul{
+    background-color: dimgrey;
     overflow: hidden;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
+nav ul li{
     float: left;
     list-style-type: none;
     width: 50%;
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
-nav ul li a {
-    text-decoration: none;
+nav ul li a{
+    font-size: 16px;
     color: white;
 }
 
-section {
+section{
     margin: 15px;
 }
 
-.project-item {
-    border: 1px solid darkgrey;
-    margin-bottom: 15px;
-    padding: 15px;
-    background-color: white;
-}
-
-.project-item img {
-    max-width: 60%;
+img{
+    max-width: 100%;
     height: auto;
 }
 
-@media screen and (max-width: 768px) {
-  body {
+.title{
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+#aboutme{
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width: 1200px){
+  body{
+    font-size: 18px;
+  }
+
+  header{
+    padding: 30px;
+  }
+
+  nav ul li{
+    float: left;
+    margin: 20px;
+  }
+
+  img{
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  body{
+    font-size: 16px;
+  }
+
+  header{
+    padding: 25px;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 15px 0;
+  }
+
+  img{
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px){
+  body{
     font-size: 14px;
   }
 
-  header {
+  header{
     padding: 20px;
   }
 
-  nav ul li {
+  nav ul li{
     display: block;
     margin: 10px 0;
   }
 
-  .project-item img {
-    width: 60%;
+  img{
+    width: 100%;
     height: auto;
   }
 }
 
-
 @media screen and (max-width: 480px) {
-  body {
+  body{
     font-size: 12px;
   }
 
-  header {
+  header{
     padding: 15px;
   }
+
+  nav ul li{
+    display: block;
+    margin: 5px 0;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
+
